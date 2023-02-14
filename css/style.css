@@ -19,16 +19,18 @@ font-size: 62.5%;
 
 
 
+
+
 body
 {
-background-image: url(../imagen/header/patron.cute.jpg); 
+background-color: #f3e5d3; 
 background-repeat: repeat; 
 background-attachment: fixed;
 background-size:cover ;
 }
 
 h1{
-       color: rgb(243, 134, 9); 
+       color:#F28585; 
        font-weight: 800; 
        font-size: 4rem; 
        text-align: center;
@@ -36,7 +38,7 @@ h1{
   }
 
 h3{
-color: orangered;
+color: #F28585;
 font-size: 2.2rem;
 text-align: center;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -44,32 +46,21 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 p{ 
   font-weight: 100;
-  font-size: 1.6rem;
-  line-height: 2.5rem;
+  font-size: 3.7rem;
+  line-height: 3.5rem;
 }
 
 nav{
-  background-color: rgb(218, 252, 191, 0.5);
-  position: sticky; 
-  top: 0;
-  left: 0;
-  padding: 8px 20px;
-  margin: 10px 10px;
-  position: fixed;
-  width: 100%;
-  top: 0px; 
-  left: 0px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  background-color:#F2C6C2   ;
+}
+.navsize{
+  font-size: large;
 }
 
-
   nav ul{
-    list-style: none;
+    list-style:georgian;
     display: flex;
+
   }
 
 
@@ -108,10 +99,15 @@ color: orange;
 .text-center
 { 
 text-align:center ;
+align-items: start;
+font-size:x-large;
+
 }
 .text-right
 {
-text-align:right;
+text-align:start;
+font-size:x-large;
+font-style:normal;
 }
 .img-header
 {
@@ -128,28 +124,30 @@ border:solid orange;
 
 }
 .footer{
-  background-color:rgba(208, 250, 141) ;
-  text-align: center;
-  height: 100px;;
-  text-decoration: underline;
+  background-color:#F28585;
+  margin-top: 10px;
 }
 .footer-flex{
   display: flex;
   justify-content:flex-end;
 }
+
+.footer-re{
+  background-color: #F28585;
+
+}
 .text-left{
-  text-align: left;
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: normal;
+  text-decoration:overline;
+
 }
 .box-contacto{
-  display: block;
-  justify-content: center;
-  width: 40%;
-  height: 40%;
-  background-color:rgba(210, 241, 163);
-  padding-left: 100px;
-  border: solid orange;
+  background-color:#fcc4c4 ;
+  border: solid#f7938a ;
   margin-right: 10px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-top: 20px;
   margin-left: 30px;
 }
@@ -157,7 +155,7 @@ border:solid orange;
   background-color:rgba(210, 241, 163);
   width: auto;
   height: auto;
-  border: dashed orange;
+  border:dashed orange;
   margin: 50px 20px;
   /* margin-top: 50px;
      margin-left:50px;
@@ -169,8 +167,10 @@ border:solid orange;
   overflow: auto;
 
 }
+
 form input {
 width: 70%;
+
 }
 .titulo-principal{
 
@@ -179,7 +179,7 @@ text-align: center;
 .botonera ul li a:hover{
 color: orange;
 font-weight: 600;
-background-size: 100% 2px;}
+background-size: 100% 3px;}
 
 .botonera ul li a{
   font-size: 1.8rem;
@@ -196,7 +196,7 @@ background-size: 100% 2px;}
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .img-adoptados{
   width: 250px;
@@ -288,7 +288,7 @@ grid-area: footer;
 }
 .icono-gato{
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
 }
 .icono-size{
   width: 150px;
@@ -344,7 +344,7 @@ grid-area: footerIndex ;
     display: none;
   }
   .img-logo {
-    width: 50px;
+    width: 20%;
   }
   .cajas-flex {
     display: block;
@@ -385,4 +385,7 @@ grid-area: footerIndex ;
 
 
 }
+
+
+
 
