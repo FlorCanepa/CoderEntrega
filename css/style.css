@@ -128,14 +128,12 @@ border:solid orange;
   margin-top: 10px;
 }
 .footer-flex{
-  display: flex;
-  justify-content:flex-end;
-}
-
-.footer-re{
   background-color: #F28585;
-
+  display: flex;
+  display: block;
+  margin-top: 100px;
 }
+
 .text-left{
   text-align: center;
   font-size: 1.7rem;
@@ -148,8 +146,8 @@ border:solid orange;
   border: solid#f7938a ;
   margin-right: 10px;
   font-size: 1.8rem;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .box-texto{
   background-color:rgba(210, 241, 163);
@@ -231,6 +229,8 @@ margin: 20px;
 text-align: center;
 border-radius:20px ;
 }
+
+
 
 .lista{
 list-style-type: inside circle ;
