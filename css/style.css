@@ -116,12 +116,9 @@ font-style:normal;
 border:solid orange;
 
 }
-.img-logo
-{
-  width: 100px;
-  border-radius:20px;
-  border: solid orange;
-
+.redes-Center {
+  display: flex;
+  justify-content: center;
 }
 .footer{
   background-color:#F28585;
@@ -343,9 +340,7 @@ grid-area: footerIndex ;
   .img-header {
     display: none;
   }
-  .img-logo {
-    width: 20%;
-  }
+  
   .cajas-flex {
     display: block;
   }
